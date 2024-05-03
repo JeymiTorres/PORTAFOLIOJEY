@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Estilos CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animaciones CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Jeymi Torres | Front-end</title>
+  </head>
+  <body>
+    <!-- Barra de Navegación -->
+    <nav>
+        <h1>Jeymi Torres</h1>
+        <ul class="navegación">
+            <li><a href="#sobre mi" class="nav-link">Acerca de mi</a></li>
+            <li><a href="#habilidades" class="nav-link">Habilidades</a></li>
+            <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+            <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+            <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+
+       <button class="menu-hamburguesa" id="menu-hamburguesa">
+         <ion-icon class="barras" name="menu-outline"></ion-icon>
+        </button>
+    </nav>
+
+    <section class="hero" id="about">
+        <div class="imagenj">
+        <img
+          src="imagenes/JeymiDEV.jpg"
+          alt="Jeymi"
+          loading="lazy"
+          class="hero-img"
+        />
+       </div>  
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-titulo">About me</h2>
+          <p class="bio-texto">
+            Una chica con una creatividad desbordante,he encontrado mi lugar en este escenario donde la creatividad y la innovación se fusionan.
+          </p>
+        </div>
+  </section>
+  <section class="mas-sobre">
+    <h2>Más sobre mí</h2>
+    <p> Soy una estudiante autodidacta apasionada por el aprendizaje continuo y una desarrolladora y analista de datos con sede en México. Me gradué de un bootcamp de front-end en Mujer Digital y participé en el programa Next Education de Oracle y Alura Latam. Me encanta sumergirme en proyectos donde puedo aprender, explorar y crear, encontrando belleza en cada experiencia de la vida.</p>
+  </section>
+
+    <!-- Sección Habilidades -->
+    <section class="habilidades" id="habilidades">
+        <h2 class="header-habilidadr">Mis mejores habilidades</h2>
+  
+        <div class="contenedor-habilidades">
+          <div class="first-set animate__animated animate__pulse">
+            <img
+              src="imagenes/icons8-html-5.svg"
+              alt="html"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="imagenes/icons8-css.svg"
+              alt="css"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="imagenes/icons8-js.svg"
+              alt="js"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+  
+          <div class="second-set animate__animated animate__pulse">
+            <img
+              src="imagenes/icons8-python.svg"
+              alt="python"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <img
+              src="imagenes/icons8-react.svg"
+              alt="react"
+              loading="lazy"
+              class="icon icon-card"
+            />
+            
+            <img
+              src="imagenes/icons8-excel.svg"
+              alt="excel"
+              loading="lazy"
+              class="icon icon-card"
+            />
+          </div>
+        </div>
+      </section>
+    <!-- Sección Proyectos -->
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+        <div class="contenedor-de-proyectos">
+          <div class="contenedor-de-proyectos tarjeta-de-proyectos">
+            <img
+              src="imagenes/carrito.jpg"
+              alt="tienda"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyectos">Tienda en linea</h3>
+            <p class="detalle-de-proyectos">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Check it Out</a>
+          </div>
+          <div class="contenedor-de-proyectos tarjeta-de-proyectos ">
+            <img
+              src="imagenes/clima.jpg"
+              alt="clima"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="titulo-proyecto">clima/h3>
+            <p class="detalles-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+            <img
+              src="imagenes/recetas.jpg"
+              alt="greeny-earth"
+              loading="recetas"
+              class="project-pic"
+            />
+            <h3 class="titulo-de-proyecto">recetas</h3>
+            <p class="detalles-de-proyecto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+              ratione vel inventore labore commodi modi quos culpa aut saepe!
+              Alias!
+            </p>
+            <a href="#" target="_blank" class="enlace-de-proyecto">Echale un vistazo!</a>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección Contacto-->
+    <section class="contacto" id="contacto">
+        <h2>Contactame</h2>
+        <div class="formulario-contacto-contenedor">
+          <div class="formulario-contacto">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="control-formulario">
+                <label for="name">Nombre</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Escribe tu nombre"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="email">Correo Electrónico</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Ingreso tu correo electrónico"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="control-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea
+                  id="mensaje"
+                  cols="60"
+                  rows="10"
+                  placeholder="Escribe tu mensaje"
+                  name="mensaje"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Enviar"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+
+    <!-- Sección de redes sociales - Fijado a la derecha -->
+   <!-- Sección de redes sociales - Fijado a la derecha -->
+<div class="sociales">
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-instagram.gif"
+        alt="Instagram"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img
+        src="assets/icons/icons8-linkedin-circled.gif"
+        alt="Linkedin"
+        loading="lazy"
+        class="socicon"
+    /></a>
+    <a href="#" target="_blank"
+      ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+    /></a>
+  </div>
+  <footer>
+    <p class="copy">&copy; Copyright 2021</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="https://twitter.com/koladechris" target="_blank"
+        >Kolade Chris (Ksound)</a
+      >
+    </p>
+  </footer>
+  
+  <!-- Vuelve al comienzo  -->
+  <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba">
+    <img
+      src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow"
+      alt="desplazarse-hacia-arriba"
+    />
+  </i>
+  
+
+    <!-- Sección Footer  -->
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
